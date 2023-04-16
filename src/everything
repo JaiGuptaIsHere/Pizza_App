@@ -1,0 +1,9 @@
+const [filter, setFilter] = useState("");
+  const [sorting, setSorting] = useState("");
+  const [showPopup, isShowPopup] = useState(false);
+  const [currentPizza, isCurrentPizza] = useState("");
+  const [currentPizzaID, isCurrentPizzaID] = useState(0);
+  const [currentPizzaTopping, isCurrentPizzaTopping] = useState(true);
+  const [currentPizzaSize, setCurrentPizzaSize] = useState("regular");
+  const [pizzasToBuy, setPizzasToBuy] = useState([]);
+  const [selectedToppings, setSelectedToppings] = useState([]);
